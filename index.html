@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário | Transa Transporte Coletivo LTDA</title>
+</head>
+<body>
+    <h1><u>Formulário ESCOLAR - <span class="colorir">PÚBLICO E PARTICULAR</span></u></h1>
+
+    <p>Por favor, preencha este formulário com as informações necessárias.</p>
+
+    <form method="post">
+      <fieldset>
+        <label for="nome">Digite seu nome completo: <input type="text" id="nome" name="nome" required></label>
+        <label for="nome-pai">Nome do pai: <input type="text" id="nome-pai" name="nome-pai"  required></label>
+        <label for="nome-mae">Nome da mãe: <input type="text" id="nome-mae" name="nome-mae" required></label>
+        <label for="endereco">Endereço completo: <input type="text" id="endereco" name="endereco" required /></label>
+        <label for="telefone">Telefone: <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXX" required></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Escola particular ou pública?</legend>
+        
+        <label for="escola-particular">
+            <input id="personal-account" type="radio" name="escola-particular" class="inline" checked> Particular
+        </label>
+
+        <label for="escola-publica">
+            <input id="business-account" type="radio" name="escola-publica" class="inline"> Pública
+        </label>
+
+      </fieldset>
+
+      <fieldset>
+        <label for="foto">Foto 3x4: 
+            <input type="file" id="foto" name="foto">
+        </label>
+
+        <label for="idade">Data de nascimento: 
+            <input type="number" id="idade" name="idade" min="7" max="100">
+        </label>
+
+        <label for="turno">Turno:
+          <select id="turno" name="turno">
+            <option value="">Selecione</option>
+            <option value="1">Manhã</option>
+            <option value="2">Tarde</option>
+            <option value="3">Noite</option>
+            <option value="4">Integral</option>
+          </select>
+        </label>
+
+        <label for="obs">Observações:
+          <textarea id="obs" name="obs" rows="3" cols="30" placeholder="Faço aulas extra a tarde."></textarea>
+        </label>
+
+      </fieldset>
+
+      <label for="condicoes">
+        <input class="inline" id="condicoes" type="checkbox" name="condicoes" required>Estou ciente que o <b>NÃO</b> preenchimento correto das informações, atrasa-rá a confecção da carteirinha escolar.
+      </label>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+
+
+</body>
+</html>
