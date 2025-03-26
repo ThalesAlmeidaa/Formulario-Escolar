@@ -1,2 +1,1 @@
-# Formulario-Escolar
-Projeto em que eu crio o layout de um formulário escolar em HTML e CSS devido a uma demanda interna da empresa em que trabalho atualmente.
+## <img width="40" height="40" src="https://img.icons8.com/plasticine/100/blueprint.png" alt="blueprint"/> **Projeto em que eu crio o layout de um formulário escolar em HTML e CSS devido a uma demanda interna da empresa em que trabalho atualmente!**
